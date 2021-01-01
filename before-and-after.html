@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="zxx">
+    
+
+<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS --> 
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Owl Theme Default CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<!-- Owl Carousel CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- Owl Magnific CSS --> 
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<!-- Animate CSS --> 
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<!-- Boxicons CSS --> 
+		<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
+		<!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<!-- Meanmenu CSS -->
+		<link rel="stylesheet" href="assets/css/meanmenu.css">
+		<!-- Before After CSS -->
+		<link rel="stylesheet" href="assets/css/before-after.min.css">
+		<!-- Nice Select CSS -->
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+		<!-- Odometer CSS-->
+		<link rel="stylesheet" href="assets/css/odometer.css">
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+		<!-- Title -->
+        <title>Shivam Car Solution</title>
+        <style>
+        * {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+        </style>
+
+		
+    </head>
+
+    <body>
+		<!-- Start Preloader Area -->
+		<div class="loader-wrapper">
+			<div class="loader">
+				<img src="assets/img/load.gif" alt="Image">
+			</div>
+		</div>
+		<!-- End Preloader Area -->
+		
+		<!-- Start Header Area -->
+		<header class="header-area" id="header">
+			<!-- Start Top Header -->
+			<div class="top-header">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-8 col-sm-8 pl-0">
+							<ul class="header-left-content">
+								<li>
+									<i class="flaticon-clock-1"></i>
+									Working Hours: Mon - Sat 10:00 am - 07:00 pm
+								</li>
+								<li>
+									<i class="flaticon-call"></i>
+									Contact:
+									<a href="tel:+91 9320898896">9320898896</a>
+								</li>
+							</ul>
+						</div>
+	
+						
+					</div>
+				</div>
+			</div>
+			<!-- Start Top Header -->
+			
+			<!-- Start Nav Area -->
+			<div class="navbar-area">
+				<div class="mobile-nav">
+					<div class="container-fluid">
+						<a href="index.html" class="logo">
+							<img src="assets/img/shivam-logo2.png" alt="Logo">
+						</a>
+					</div>
+				</div>
+
+				<div class="main-nav">
+					<div class="container-fluid">
+						<nav class="navbar navbar-expand-md">
+							<a class="navbar-brand" href="index.html">
+								<img src="assets/img/logo2.png" alt="Logo" style="margin-top: -20px;">
+							</a>
+							
+							<div class="collapse navbar-collapse mean-menu">
+								<ul class="navbar-nav m-auto">
+									<li class="nav-item">
+										<a href="index.html" class="nav-link">
+											Home
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a href="about-us.html" class="nav-link">
+											About Us
+										</a>	
+									</li>
+
+									<li class="nav-item">
+										<a href="services.html" class="nav-link">
+											Services
+										</a>	
+									</li>
+
+									<li class="nav-item">
+										<a href="gallery.html" class="nav-link">
+											Gallery
+											
+										</a>
+
+										
+									</li>
+
+									<li class="nav-item">
+										<a href="contact-us.html" class="nav-link">
+											Contact Us
+										</a>	
+									</li>
+
+								
+								</ul>
+								
+								<!--<div class="others-option">
+									<div class="search-box">
+										<form class="search-form">
+											<input class="form-control" name="search" placeholder="Search..." type="text">
+											<button class="search-btn" type="submit">
+												<i class="bx bx-search"></i>
+											</button>
+										</form>
+									</div>-->
+
+									
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+				
+				<div class="others-option-for-responsive">
+					<div class="container">
+						<div class="dot-menu">
+							<div class="inner">
+								<div class="circle circle-one"></div>
+								<div class="circle circle-two"></div>
+								<div class="circle circle-three"></div>
+							</div>
+						</div>
+						
+						<div class="container">
+							<div class="option-inner">
+								<div class="others-option justify-content-center d-flex align-items-center">
+									<div class="search-box">
+										<form class="search-form">
+											<input class="form-control" name="search" placeholder="Search..." type="text">
+											<button class="search-btn" type="submit">
+												<i class="bx bx-search"></i>
+											</button>
+										</form>
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Nav Area -->
+		</header>
+		<!-- End Header Area -->
+
+		<!-- Start Page Title Area -->
+		<div class="page-title-area bg-20">
+			<div class="container">
+				<div class="page-title-content">
+					<h2>Gallery</h2>
+					<ul>
+						<li>
+							<a href="index.html">
+								Home 
+							</a>
+						</li>
+						<li class="active">Gallery</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <!-- End Page Title Area -->
+        
+
+
+
+        <!-- Start Gallery Area -->
+        <div class="container">
+				<div class="section-title">
+					<span><center></center></span>
+					<h2><center></center></h2>
+				</div>
+		
+        <h2 style="text-align:center; color: green;">Before & After</h2>
+        <div class=" container section-title">
+                <span><center></center></span>
+                <h2><center></center></h2>
+            </div>
+            <div id="photos">
+                    <ul id="photo-gallery">
+
+                        <div class="row">
+                
+                      <li>
+                        <a href="assets/img/before -after/1.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+                          <img src="assets/img/before -after/1.jpeg" style="border: 1px solid #ddd;
+                          border-radius: 4px;
+                          padding: 15px;
+                          width: 250px;"></a>
+                      </li>
+                
+                      <li>
+                            <a href="assets/img/before -after/2.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+                              <img src="assets/img/before -after/2.jpeg" style="border: 1px solid #ddd;
+                              border-radius: 4px;
+                              padding: 15px;
+                              width: 250px;"></a>
+                          </li>
+
+                          <li>
+                                <a href="assets/img/before -after/3.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+                                  <img src="assets/img/before -after/3.jpeg" style="border: 1px solid #ddd;
+                                  border-radius: 4px;
+                                  padding: 15px;
+                                  width: 250px;"></a>
+                              </li>
+                              <li>
+                                    <a href="assets/img/before -after/4.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+                                      <img src="assets/img/before -after/4.jpeg" style="border: 1px solid #ddd;
+                                      border-radius: 4px;
+                                      padding: 15px;
+                                      width: 250px;"></a>
+                                  </li>
+                                  <li>
+                                        <a href="assets/img/before -after/5.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+                                          <img src="assets/img/before -after/5.jpeg" style="border: 1px solid #ddd;
+                                          border-radius: 4px;
+                                          padding: 15px;
+                                          width: 250px;"></a>
+                                      </li>
+					  </div>
+					  <div class="row">
+                
+						<li>
+						  <a href="assets/img/before -after/6.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+							<img src="assets/img/before -after/6.jpeg" style="border: 1px solid #ddd;
+							border-radius: 4px;
+							padding: 15px;
+							width: 250px;"></a>
+						</li>
+				  
+						<li>
+							  <a href="assets/img/before -after/7.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+								<img src="assets/img/before -after/7.jpeg" style="border: 1px solid #ddd;
+								border-radius: 4px;
+								padding: 15px;
+								width: 250px;"></a>
+							</li>
+  
+							<li>
+								  <a href="assets/img/before -after/8.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+									<img src="assets/img/before -after/8.jpeg" style="border: 1px solid #ddd;
+									border-radius: 4px;
+									padding: 15px;
+									width: 250px;"></a>
+								</li>
+								<li>
+									  <a href="assets/img/before -after/9.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+										<img src="assets/img/before -after/9.jpeg" style="border: 1px solid #ddd;
+										border-radius: 4px;
+										padding: 15px;
+										width: 250px;"></a>
+									</li>
+									<li>
+										  <a href="assets/img/before -after/12.jpeg" data-lightbox="image-1" data-title="This is a caption for this photo">
+											<img src="assets/img/before -after/12.jpeg" style="border: 1px solid #ddd;
+											border-radius: 4px;
+											padding: 15px;
+											width: 250px;"></a>
+										</li>
+						</div>
+						
+                      
+                    </ul>
+                  </div>
+</div> 
+
+
+<div class="section-title">
+	<span><center></center></span>
+	<h2><center></center></h2>
+</div>
+<div class="section-title">
+	<span><center></center></span>
+	<h2><center></center></h2>
+</div>
+        </div>
+		<!-- End Gallery Area -->
+
+		
+		
+
+		<!-- Start Footer Area -->
+		<footer class="footer-area pt-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<!-- <a href="index.html" class="footer-logo">
+								<img src="assets/img/white-logo.png" alt="Image">
+							</a> -->
+
+							<ul class="address">
+								<li class="location">
+									<i class="flaticon-pin"></i>
+									 Shop No.4, Plot No.5, Jigna Arcade, Near Bharat Petrol Pump, Vashi Road, Sector 13, Kopar Khairane, Navi Mumbai, Maharashtra 400709
+								</li>
+								<li>
+									<i class="flaticon-envelope"></i>
+									<a href="mailto:shivamcarsolution@yahoo.com">shivamcarsolutions@gmail.com</a>
+								</li>
+								<li>
+									<i class="flaticon-telephone"></i>
+									<a href="tel:+91 9320898896">9320898896</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Our services</h3>
+
+							<ul class="import-link">
+								<li>
+									<a href="services.html">Car Repair & Services</a>
+								</li>
+								<li>
+									<a href="services.html">CNG Conversion Kit Dealers</a>
+								</li>
+								<li>
+									<a href="services.html">CNG Conversion Kit Installation Services</a>
+								</li>
+								<li>
+									<a href="services.html">Danting, Painting and All Car Painting Job</a>
+								</li>
+								<!--<li>
+									<a href="services.html">CNG Conversion Kit Dealers-Lovato</a>
+								</li>-->
+								
+								
+								<li>
+									<a href="services.html">Car Restoration Services</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Quick Links</h3>
+							
+							<ul class="import-link">
+								<li>
+									<a href="about-us.html">
+										About Us
+									</a>
+								
+								</li>
+								<li>
+									<a href="services.html">
+										Services
+									</a>
+									
+								</li>
+								<li>
+									<a href="gallery.html">
+										Gallery
+									</a>
+								
+								</li>
+
+								<li>
+									<a href="contact-us.html">
+										Contact Us
+									</a>
+								
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Business hours</h3>
+
+							<ul class="time">
+								<li>
+									Monday:
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Tuesday:
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Wednesday:
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Thursday:	
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Friday:
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Saturday:
+									<span>10:00 am - 07:00 pm</span>
+								</li>
+								<li>
+									Sunday:
+									<span>Closed</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="copy-right-content">
+					<div class="row align-items-center">
+						<div class="col-lg-12">
+							<p class="text-center">Copyright @2020 Shivam Car Solution. Designed By <a href="http://a3solution.in/" target="blank">A3 Solution</a></p>
+						</div>
+	
+						
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+		
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="bx bx-chevrons-up"></i>
+			<i class="bx bx-chevrons-up"></i>
+		</div>
+		<!-- End Go Top Area -->
+		
+
+        <!-- Jquery-3.5.1.Slim.Min.JS -->
+        <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+		<script src="assets/js/jquery.meanmenu.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Owl Carousel JS -->
+		<script src="assets/js/owl.carousel.js"></script>
+        <!-- Owl Magnific JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Before After JS --> 
+		<script src="assets/js/before-after.min.js"></script>
+        <!-- Nice Select JS -->
+		<script src="assets/js/jquery.nice-select.min.js"></script>
+		<!-- Parallax JS --> 
+		<script src="assets/js/parallax.min.js"></script>
+		<!-- Mixitup JS --> 
+		<script src="assets/js/jquery.mixitup.min.js"></script>
+		<!-- Appear JS --> 
+        <script src="assets/js/jquery.appear.js"></script>
+		<!-- Odometer JS --> 
+		<script src="assets/js/odometer.min.js"></script>
+		<!-- Form Validator JS -->
+		<script src="assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+		<script src="assets/js/contact-form-script.js"></script>
+		<!-- Ajaxchimp JS -->
+		<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
+    </body>
+
+
+</html>

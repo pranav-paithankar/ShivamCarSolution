@@ -1,0 +1,75 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 11/08/2020 20:37
+  	*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.eot");
+    src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Flaticon.woff2") format("woff2"),
+        url("../fonts/Flaticon.woff") format("woff"),
+        url("../fonts/Flaticon.ttf") format("truetype"),
+        url("../fonts/Flaticon.html#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.html#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+.flaticon-diagnostic:before { content: "\f100"; }
+.flaticon-mechanic:before { content: "\f101"; }
+.flaticon-wheel-alignment:before { content: "\f102"; }
+.flaticon-goal:before { content: "\f103"; }
+.flaticon-brakes:before { content: "\f104"; }
+.flaticon-car-service:before { content: "\f105"; }
+.flaticon-engine:before { content: "\f106"; }
+.flaticon-vision:before { content: "\f107"; }
+.flaticon-diagnosis:before { content: "\f108"; }
+.flaticon-battery:before { content: "\f109"; }
+.flaticon-steering-wheel:before { content: "\f10a"; }
+.flaticon-team:before { content: "\f10b"; }
+.flaticon-operator:before { content: "\f10c"; }
+.flaticon-clock:before { content: "\f10d"; }
+.flaticon-complete:before { content: "\f10e"; }
+.flaticon-cooling-system:before { content: "\f10f"; }
+.flaticon-painting:before { content: "\f110"; }
+.flaticon-car-service-1:before { content: "\f111"; }
+.flaticon-plumber:before { content: "\f112"; }
+.flaticon-goal-1:before { content: "\f113"; }
+.flaticon-customers:before { content: "\f114"; }
+.flaticon-petrol:before { content: "\f115"; }
+.flaticon-clock-1:before { content: "\f116"; }
+.flaticon-time:before { content: "\f117"; }
+.flaticon-phone-call-button:before { content: "\f118"; }
+.flaticon-call:before { content: "\f119"; }
+.flaticon-search-interface-symbol:before { content: "\f11a"; }
+.flaticon-magnifiying-glass:before { content: "\f11b"; }
+.flaticon-loupe:before { content: "\f11c"; }
+.flaticon-cart:before { content: "\f11d"; }
+.flaticon-shopping-cart:before { content: "\f11e"; }
+.flaticon-checkmark:before { content: "\f11f"; }
+.flaticon-comment:before { content: "\f120"; }
+.flaticon-left-arrow:before { content: "\f121"; }
+.flaticon-right-arrow:before { content: "\f122"; }
+.flaticon-play-button:before { content: "\f123"; }
+.flaticon-play:before { content: "\f124"; }
+.flaticon-pin:before { content: "\f125"; }
+.flaticon-envelope:before { content: "\f126"; }
+.flaticon-telephone:before { content: "\f127"; }
+.flaticon-send:before { content: "\f128"; }
+.flaticon-facebook:before { content: "\f129"; }
+.flaticon-instagram-symbol:before { content: "\f12a"; }
+.flaticon-twitter:before { content: "\f12b"; }
+.flaticon-linkedin:before { content: "\f12c"; }
